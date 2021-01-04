@@ -23,10 +23,6 @@
         <input id="cliente" type="text" class="formulario__input" required>
         
         
-        <label for="fecha" class="formulario__label">Indica la fecha de tu pedido</label>
-        <input id="fecha" type="date" class="formulario__input" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
-        
-        
         <label for="domicilio" class="formulario__label">Indica tu domicilio</label>
         <input id="domicilio" type="text" class="formulario__input" required>
         
@@ -34,33 +30,39 @@
         <label for="entrega" class="formulario__label">Metodo de entrega </label>
         <select id="entrega" name="ordendeentrega" class="formulario__input">
              <option value="Lo retiro">Lo retiro</option>
-            <option value="A domicilio">A domicilio + $50</option>
            
+        </select>
+        
+         <label for="metodo" class="formulario__label">Metodo de pago </label>
+        <select id="metodo" name="metodopago" class="formulario__input">
+             <option value="efectivo">Efectivo</option>
+            <option value="mercadopago">Mercado Pago</option>
+           <option value="uala">Ualá</option>
         </select>
         
         <label for="producto" class="formulario__label">¿Qué producto personalizado desea adquirir?</label>
         <select id="producto" name="listaproductos" class="formulario__input">
            
             <option> ¿Qué deseas reservar? </option>
-            <option>PACK EMPRENDEDOR - $1200</option>
-            <option>Especial-Cumple Feliz- $2500 - Promo</option>
+            <option>PACK EMPRENDEDOR - $1500</option>
+            <option>Especial-Cumple Feliz- $3000 - Promo</option>
             <option>Jarros termicos - $420</option>
-            <option>Taza de Cerámica - *sin stock*</option>
-            <option>Taza Mágica - *sin stock*</option>
-            <option>Tazas infantiles - $200</option>
-            <option>Tapabocas personalizado - $120</option>
-            <option>Remera Infantil Spum - $350</option>
-            <option>Remera Adulto blanco Spum - $450</option>
-            <option>Remera Adulto gris, rosa turquesa Spum - $500</option>
-            <option>Gorras - $350</option>
-            <option>Llaveros PVC - $65</option>
-            <option>ID Mascotas</option>
-            <option>Kit infantil básico - $500</option>
-            <option>Libritos para colorear (grande) - $90</option>
-            <option>Pizarra enrollable + tizas - $400</option>
-            <option>Impresión fotos polaroid - $16 </option>
-            <option>Cartelitos para foto - $100</option>
-            <option>Botellitas 750ml - $350 - $400</option>
+            <option>Taza de Cerámica - $700</option>
+            <option>Taza Mágica - $950</option>
+            <option>Tazas infantiles - $250</option>
+            <option>Tapabocas personalizado - $180</option>
+            <option>Remera Infantil Spum - $450</option>
+            <option>Remera Adulto blanco Spum - $620</option>
+            <option>Remera Adulto gris, rosa turquesa Spum - $550</option>
+            <option>Gorras - $460</option>
+            <option>Llaveros PVC - $70</option>
+            <option>ID Mascotas- $260</option>
+            <option>Kit infantil básico - $800</option>
+            <option>Libritos para colorear (grande) - $100</option>
+            <option>Pizarra enrollable + tizas - $500</option>
+            <option>Impresión fotos polaroid - $20 </option>
+            <option>Cartelitos para foto - $150</option>
+            <option>Botellitas 750ml - $400</option>
             <option>Servicio de tarjetería/adhesivos/imanes </option>
             <option>Servicio de porcelana</option>
             <option>Servicio de Identidad Visual (logos, marca) manejo de redes</option>
